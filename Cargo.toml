@@ -1,0 +1,16 @@
+[package]
+name = "chess_ai"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chess = "3.2.0"
+rand = "0.8.5"
+more-asserts = "0.3.1"
+threadpool = "1.0"
+
+# This is for profiling, remove if not using
+[profile.release]
+#debug = true
